@@ -1,0 +1,35 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="row">
+      <div class="col-md-3" id="header">
+        <div class="navbar-header navbar-custom">
+          <%= link_to "Admin", root_path, class: "navbar-brand", id: "head"%>
+        </div>
+      </div>
+      <div class="col-md-1">
+        <div class="navbar-header navbar-custom">
+          <%= button_to "ROOMS", root_path, id: "field" %>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="navbar-header navbar-custom">
+          <%= button_to "GUESTS", root_path, id: "field" %>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="navbar-header navbar-custom">
+          <%= button_to "STAFFS", root_path, id: "field" %>
+        </div>
+      </div>
+
+      <div class="col-md-1">
+        <div class="navbar-header navbar-custom">
+          <%= button_to "CONTROLS", root_path, id: "field-control" %>
+        </div>
+      </div>
+    </div>
+  </div><!-- /.container-fluid -->
+</nav>
