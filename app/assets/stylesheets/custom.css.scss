@@ -27,15 +27,14 @@ $navbar-default-bg: #ee2f40;
 	font-size: 1.3em;
 	color: #FFFFFF;
 	text-transform: uppercase;
+	text-align: center;
 	letter-spacing: 1px;
 	margin: 20px 10px;
 	font-family: 'Gotham Book';
 	background-color: Transparent;
-    background-repeat:no-repeat;
     border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
+    width: 100px;
+    height: 30px;
 }
 
 #field:hover {
@@ -68,7 +67,6 @@ $navbar-default-bg: #ee2f40;
 	font-family: 'Gotham Book';
 	background-color: #a51117;
     background-repeat:no-repeat;
-    border: none;
     cursor:pointer;
     overflow: hidden;
     outline:none;
