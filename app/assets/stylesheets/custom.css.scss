@@ -56,6 +56,10 @@ $navbar-default-bg: #ee2f40;
     width: 100px;
 }
 
+#field-control {
+    width: 150px;
+}
+
 #field-control:hover {
 	font-size: 1.3em;
 	color: #FFFFFF;
@@ -87,18 +91,6 @@ $navbar-default-bg: #ee2f40;
     margin: 20px 10px;
 }
 
-
-* {
-	margin: 0;
-	padding: 0;
-	color: white;
-	font-size: 14px;
-}
-
-html, body {
-	background-color: #efefef;
-    height: 600px;
-}
 #sidebar {
     height: 600px;
     background-color: #d7d7d7;
@@ -114,7 +106,6 @@ html, body {
 th {
     color: white;
     text-align: center;
-
 }
 
 td {
@@ -127,4 +118,17 @@ input{
 	font-family: 'Gotham Book';
     text-align: left;
     color: black;
+    width: 300px;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+input:focus {
+	font-family: 'Gotham Book';
+    text-align: left;
+    border-color: #ee2f40;
+    border-radius: 7px;
+    border-width: 3px;
+    border-style: solid;
+    font-weight: bold;
 }
