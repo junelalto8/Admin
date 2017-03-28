@@ -132,3 +132,18 @@ input:focus {
     border-style: solid;
     font-weight: bold;
 }
+
+#trs:nth-of-type(odd) {
+  background-color: #d7d7d7;
+  color: white;
+}
+
+#trs:nth-of-type(even) {
+    background-color: white;
+    color: black;
+}
+
+table#room {
+    border-collapse:separate; 
+    border-spacing:1em;
+}
