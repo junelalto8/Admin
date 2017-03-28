@@ -23,13 +23,13 @@ $navbar-default-bg: #ee2f40;
 	font-family: 'Gotham Book';
 }
 
-#field, #field-control {
+#field, #field-control, #field-booking {
 	font-size: 1.3em;
 	color: #FFFFFF;
 	text-transform: uppercase;
 	text-align: center;
 	letter-spacing: 1px;
-	margin: 20px 10px;
+	margin: 20px 20px;
 	font-family: 'Gotham Book';
 	background-color: Transparent;
     border: none;
@@ -58,6 +58,12 @@ $navbar-default-bg: #ee2f40;
 
 #field-control {
     width: 150px;
+    margin: 20px 5px;
+}
+
+#field-booking {
+    width: 150px;
+    margin-left: 40px;
 }
 
 #field-control:hover {
@@ -78,25 +84,49 @@ $navbar-default-bg: #ee2f40;
     width: 150px;
 }
 
+#field-booking:hover {
+    font-size: 1.3em;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-family: 'Gotham Book';
+    background-color: #a51117;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+    border-radius: 7px;
+    width: 150px;
+}
+
 .col-md-1 {
 	width: 130px;
 }
 
-#box {
-	border-radius: 15px;
-    background-color: #a6a6a6;
-    width: 280px;
-    height: 150px;
+#ldash {
+    background-color: #ebebeb;
+    height: 40px;
+    width: 350px;
+    color: red;
+    text-transform: uppercase;
     padding: 0px;
-    margin: 20px 10px;
+    text-align: center;
+    font-family: 'Gotham Book';
+    font-size: 1.5em;
+    line-height: 40px;
+    letter-spacing: 1px;
 }
 
-#sidebar {
+
+.sidebar {
     height: 600px;
     background-color: #d7d7d7;
+    padding: 0px 0px;
 }
 
-#content {
+#rooomcontent {
     background-color: none;
     margin-left: 20px 20px;
     width: 950px;
@@ -119,13 +149,14 @@ input{
     text-align: left;
     color: black;
     width: 300px;
-    font-size: 1em;
+    font-size: 1.1em;
     font-weight: bold;
 }
 
 input:focus {
 	font-family: 'Gotham Book';
     text-align: left;
+    font-size: 1.1em;
     border-color: #ee2f40;
     border-radius: 7px;
     border-width: 3px;
@@ -136,14 +167,42 @@ input:focus {
 #trs:nth-of-type(odd) {
   background-color: #d7d7d7;
   color: white;
+  font-family: 'Gotham Book';
 }
 
 #trs:nth-of-type(even) {
     background-color: white;
     color: black;
+    font-family: 'Gotham Book';
 }
 
 table#room {
     border-collapse:separate; 
     border-spacing:1em;
+    font-family: 'Gotham Book';
+}
+
+.search-add-edit {
+    display:inline-block;
+}
+
+#add-edit-btn {
+    display:block;
+    width: 130px;
+    text-align: center;
+    background-color: #ee2f40;
+    font-family: 'Gotham Book';
+    font-size: 1.5em;
+    color: white;
+    border-radius: 7px;
+    border-color: #ee2f40;
+}
+
+#widtd {
+    width: 380px;
+}
+
+#guestname {
+    text-decoration: underline;
+    color: blue;
 }
