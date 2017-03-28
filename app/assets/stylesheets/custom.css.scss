@@ -38,6 +38,21 @@ $navbar-default-bg: #ee2f40;
     height: 30px;
 }
 
+#field-logout {
+    font-size: 1.3em;
+    color: #a51117;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 20px 20px;
+    font-family: 'Gotham Book';
+    background-color: #ebebeb;
+    border: none;
+    width: 150px;
+    height: 30px;
+    border-radius: 7px;
+}
+
 #field:hover {
 	font-size: 1.3em;
 	color: #FFFFFF;
@@ -193,14 +208,16 @@ table#room {
     text-align: center;
     background-color: #ee2f40;
     font-family: 'Gotham Book';
-    font-size: 1.5em;
+    font-size: 1.3em;
     color: white;
     border-radius: 7px;
     border-color: #ee2f40;
+    border-style: none;
+    height: 30px;
 }
 
 #widtd {
-    width: 380px;
+    width: 350px;
 }
 
 #guestname {
