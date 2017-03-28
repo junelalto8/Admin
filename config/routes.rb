@@ -5,4 +5,6 @@ Rails.application.routes.draw do
   post 'rooms/index'
   post 'guests/index'
   post 'bookings/index'
+  post 'staffs/index'
+  post 'controls/index'
 end
