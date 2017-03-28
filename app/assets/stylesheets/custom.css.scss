@@ -6,6 +6,7 @@ $navbar-default-bg: #ee2f40;
 #header{
     color: #FFFFFF;
     background-color: #a51117;
+    margin: 0px 0px;
 }
 
 .navbar-header {
@@ -205,4 +206,8 @@ table#room {
 #guestname {
     text-decoration: underline;
     color: blue;
+}
+
+.col-md-3 {
+    margin: -20px -0px;
 }
