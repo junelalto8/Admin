@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   post 'bookings/index'
   post 'staffs/index'
   post 'controls/index'
+
+  
 end

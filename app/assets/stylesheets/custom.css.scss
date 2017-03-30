@@ -24,6 +24,11 @@ $navbar-default-bg: #ee2f40;
 	font-family: 'Gotham Book';
 }
 
+/*for sidebar*/
+.col-md-3 {
+    margin: -20px -0px;
+}
+
 #field, #field-control, #field-booking {
 	font-size: 1.3em;
 	color: #FFFFFF;
@@ -60,7 +65,6 @@ $navbar-default-bg: #ee2f40;
 	text-align: center;
 	letter-spacing: 1px;
 	font-weight: bold;
-	margin: 20px 10px;
 	font-family: 'Gotham Book';
 	background-color: #a51117;
     background-repeat:no-repeat;
@@ -89,7 +93,6 @@ $navbar-default-bg: #ee2f40;
 	text-align: center;
 	letter-spacing: 1px;
 	font-weight: bold;
-	margin: 20px 10px;
 	font-family: 'Gotham Book';
 	background-color: #a51117;
     background-repeat:no-repeat;
@@ -180,17 +183,7 @@ input:focus {
     font-weight: bold;
 }
 
-#trs:nth-of-type(odd) {
-  background-color: #d7d7d7;
-  color: white;
-  font-family: 'Gotham Book';
-}
 
-#trs:nth-of-type(even) {
-    background-color: white;
-    color: black;
-    font-family: 'Gotham Book';
-}
 
 table#room {
     border-collapse:separate; 
@@ -225,6 +218,32 @@ table#room {
     color: blue;
 }
 
-.col-md-3 {
-    margin: -20px -0px;
+
+.StandardTable {
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    border-spacing: 0;
+    background-color: #a6a6a6;
+}
+
+#trs:nth-of-type(odd) {
+  background-color: #d7d7d7;
+  color: white;
+  font-family: 'Gotham Book';
+}
+
+#trs:nth-of-type(even) {
+    background-color: white;
+    color: black;
+    font-family: 'Gotham Book';
+}
+.StandardTable tbody tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.StandardTable tbody tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
 }

@@ -1,5 +1,7 @@
 class RoomsController < ApplicationController
-	def index
 
+	def index
+		response = HTTParty.get('URI')
 	end
+
 end
